@@ -1,8 +1,9 @@
 {
-  "name": "LeetHub v2",
-  "version": "2.0.0",
+  "name": "leethub",
+  "version": "2.1.0",
   "private": true,
   "description": "Automatically integrate your code with LeetCode and GitHub",
+  "type": "module",
   "scripts": {
     "setup": "npm i",
     "format": "prettier --write **/*.{js,jsx,ts,tsx,css,html}",
@@ -18,8 +19,10 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.5",
-    "eslint-plugin-react-hooks": "^4.0.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.2.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
 }

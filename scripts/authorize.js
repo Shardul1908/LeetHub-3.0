@@ -2,7 +2,6 @@
     (needs patch) 
     IMPLEMENTATION OF AUTHENTICATION ROUTE AFTER REDIRECT FROM GITHUB.
 */
-
 const localAuth = {
   /**
    * Initialize
@@ -13,8 +12,8 @@ const localAuth = {
       'https://github.com/login/oauth/access_token';
     this.AUTHORIZATION_URL =
       'https://github.com/login/oauth/authorize';
-    this.CLIENT_ID = '0114dd35b156d4729fac';
-    this.CLIENT_SECRET = 'cfc3301d9745530bf1b31e92528ad9c31fd3f995';
+    this.CLIENT_ID = '5f426cd3e303d8f79403';
+    this.CLIENT_SECRET = 'c3181edd6226e18985d41270fb412d9805258f9b';
     this.REDIRECT_URL = 'https://github.com/'; // for example, https://github.com
     this.SCOPES = ['repo'];
   },
