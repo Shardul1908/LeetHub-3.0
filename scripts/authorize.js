@@ -12,8 +12,8 @@ const localAuth = {
       'https://github.com/login/oauth/access_token';
     this.AUTHORIZATION_URL =
       'https://github.com/login/oauth/authorize';
-    this.CLIENT_ID = '5f426cd3e303d8f79403';
-    this.CLIENT_SECRET = 'c3181edd6226e18985d41270fb412d9805258f9b';
+    this.CLIENT_ID = 'YOUR_ID';
+    this.CLIENT_SECRET = 'YOUR_SECRET';
     this.REDIRECT_URL = 'https://github.com/'; // for example, https://github.com
     this.SCOPES = ['repo'];
   },
